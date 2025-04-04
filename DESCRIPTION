@@ -1,0 +1,20 @@
+Package: flipSnapshotTestUtils
+Type: Package
+Title: Utils to run snapshot tests for htmlwidgets
+Version: 1.0.0
+Author: Displayr <opensource@displayr.com>
+Maintainer: Displayr <opensource@displayr.com>
+Description: This package contains no code. It only used for testing.
+License: GPL-3
+Depends: R (>= 2.10)
+LazyData: TRUE
+Imports: htmlwidgets,
+         chromote,
+         visualTest
+Remotes:
+    MangoTheCat/visualTest,
+    rstudio/chromote@5b85d76,
+Suggests:
+    testthat,
+RoxygenNote: 7.3.2
+Encoding: UTF-8
